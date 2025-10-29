@@ -1,0 +1,12 @@
+public static void main(String[] args) {
+    ResourceDTO resource = new ResourceDTO(
+        "r1",
+        "Computer Science Lab",
+        "Lab",
+        "Building B, Room 210",
+        "http://example.edu/cslab",
+        List.of("computers", "research", "technology")
+    );
+
+    System.out.println(resource);
+}
