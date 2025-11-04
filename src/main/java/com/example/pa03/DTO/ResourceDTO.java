@@ -1,6 +1,6 @@
 package com.example.pa03.DTO;
 
-public class resourceDTO {
+public class ResourceDTO {
 
         private Long id;
         private String name;
